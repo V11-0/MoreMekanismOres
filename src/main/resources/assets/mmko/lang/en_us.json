@@ -1,6 +1,8 @@
 {
   "item.mmko.clump_vulcanite": "Vulcanite Clump",
   "item.mmko.dirty_dust_vulcanite": "Dirty Vulcanite Dust",
-  "item.mmko.dust_vulcanite": "Vulcanite Dust"
+  "item.mmko.dust_vulcanite": "Vulcanite Dust",
+  "item.mmko.shard_vulcanite": "Vulcanite Shard",
+  "item.mmko.crystal_vulcanite": "Vulcanite Crystal"
 
 }

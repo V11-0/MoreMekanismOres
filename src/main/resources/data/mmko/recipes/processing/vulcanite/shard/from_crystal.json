@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:injecting",
+  "conditions": [
+    {
+      "modid": "vulcanite",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "itemInput": {
+    "ingredient": {
+      "item": "mmko:crystal_vulcanite"
+    }
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:hydrogen_chloride"
+  },
+  "output": {
+    "item": "mmko:shard_vulcanite"
+  }
+}
