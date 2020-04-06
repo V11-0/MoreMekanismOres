@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:crushing",
+  "conditions": [
+    {
+      "modid": "vulcanite",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "item": "mmko:clump_vulcanite"
+    }
+  },
+  "output": {
+    "item": "mmko:dirty_dust_vulcanite"
+  }
+}

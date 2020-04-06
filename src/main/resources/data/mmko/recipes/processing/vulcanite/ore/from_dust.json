@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:combining",
+  "conditions": [
+    {
+      "modid": "vulcanite",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "extraInput": {
+    "ingredient": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "output": {
+    "item": "vulcanite:nether_vulcanite_ore"
+  }
+}

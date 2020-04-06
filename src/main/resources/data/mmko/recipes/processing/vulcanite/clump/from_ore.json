@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:purifying",
+  "conditions": [
+    {
+      "modid": "vulcanite",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "itemInput": {
+    "ingredient": {
+      "item": "vulcanite:nether_vulcanite_ore"
+    }
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "output": {
+    "item": "mmko:clump_vulcanite",
+    "count": 3
+  }
+}
