@@ -6,6 +6,12 @@
       "type": "forge:mod_loaded"
     }
   ],
+  "mainInput": {
+    "amount": 8,
+    "ingredient": {
+      "item": "mmko:dust_vulcanite"
+    }
+  },
   "extraInput": {
     "ingredient": {
       "item": "minecraft:netherrack"
