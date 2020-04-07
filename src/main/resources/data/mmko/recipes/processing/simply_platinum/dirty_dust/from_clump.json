@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:crushing",
+  "conditions": [
+    {
+      "modid": "simplyplatinum",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "item": "mmko:clump_platinum"
+    }
+  },
+  "output": {
+    "item": "mmko:dirty_dust_platinum"
+  }
+}

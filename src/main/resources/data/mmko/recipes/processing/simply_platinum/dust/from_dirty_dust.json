@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "conditions": [
+    {
+      "modid": "simplyplatinum",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "ingredient":{
+      "item": "mmko:dirty_dust_platinum"
+    }
+  },
+  "output": {
+    "item": "mmko:dust_platinum"
+  }
+}

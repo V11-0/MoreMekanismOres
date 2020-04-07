@@ -1,10 +1,20 @@
 {
+
   "item.mmko.clump_vulcanite": "Vulcanite Clump",
   "item.mmko.dirty_dust_vulcanite": "Dirty Vulcanite Dust",
   "item.mmko.dust_vulcanite": "Vulcanite Dust",
   "item.mmko.shard_vulcanite": "Vulcanite Shard",
   "item.mmko.crystal_vulcanite": "Vulcanite Crystal",
   "gas.mmko.clean_vulcanite_slurry": "Clean Vulcanite",
-  "gas.mmko.dirty_vulcanite_slurry": "Vulcanite"
+  "gas.mmko.dirty_vulcanite_slurry": "Vulcanite",
+
+
+  "item.mmko.clump_platinum": "Platinum Clump",
+  "item.mmko.dirty_dust_platinum": "Dirty Platinum Dust",
+  "item.mmko.dust_platinum": "Platinum Dust",
+  "item.mmko.shard_platinum": "Platinum Shard",
+  "item.mmko.crystal_platinum": "Platinum Crystal",
+  "gas.mmko.clean_platinum_slurry": "Clean Platinum",
+  "gas.mmko.dirty_platinum_slurry": "Platinum"
 
 }

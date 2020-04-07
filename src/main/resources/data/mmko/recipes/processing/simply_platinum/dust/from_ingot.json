@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:crushing",
+  "conditions": [
+    {
+      "modid": "simplyplatinum",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "item": "simplyplatinum:platinum_ingot"
+    },
+    "output": {
+      "item": "mmko:dust_platinum"
+    }
+  }
+}

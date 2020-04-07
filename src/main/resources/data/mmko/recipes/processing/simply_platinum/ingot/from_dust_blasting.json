@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:blasting",
+  "conditions": [
+    {
+      "modid": "simplyplatinum",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "mmko:dust_platinum"
+  },
+  "result": "simplyplatinum:platinum_ingot",
+  "experience": 0.5,
+  "cookingtime": 100
+}
