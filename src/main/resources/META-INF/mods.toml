@@ -9,15 +9,9 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="mmko" #mandatory
 
-version="1.15.2-1.0.0" #mandatory
+version="1.15.2-1.0.1" #mandatory
 
 displayName="More Mekanism Ores" #mandatory
-
-updateJSONURL="http://myurl.me/" #optional
-
-displayURL="http://example.com/" #optional
-
-logoFile="examplemod.png" #optional
 
 credits="Thanks for this mod goes to the creators of the Vulcanite mod and Mekanism" #optional
 
