@@ -1,0 +1,10 @@
+{
+  "type": "mekanism:crystallizing",
+  "input": {
+    "amount": 200,
+    "gas": "mmko:clean_vulcanite_slurry"
+  },
+  "output": {
+    "item": "mmko:crystal_vulcanite"
+  }
+}

@@ -3,6 +3,8 @@
   "item.mmko.dirty_dust_vulcanite": "Dirty Vulcanite Dust",
   "item.mmko.dust_vulcanite": "Vulcanite Dust",
   "item.mmko.shard_vulcanite": "Vulcanite Shard",
-  "item.mmko.crystal_vulcanite": "Vulcanite Crystal"
+  "item.mmko.crystal_vulcanite": "Vulcanite Crystal",
+  "gas.mmko.clean_vulcanite_slurry": "Clean Vulcanite",
+  "gas.mmko.dirty_vulcanite_slurry": "Vulcanite"
 
 }
