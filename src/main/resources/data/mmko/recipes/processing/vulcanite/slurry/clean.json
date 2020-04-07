@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:washing",
+  "fluidInput": {
+    "amount": 5,
+    "tag": "minecraft:water"
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mmko:dirty_vulcanite_slurry"
+  },
+  "output": {
+    "gas": "mmko:clean_vulcanite_slurry",
+    "amount": 1
+  }
+}
