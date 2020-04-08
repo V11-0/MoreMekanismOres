@@ -9,9 +9,9 @@
   "input": {
     "ingredient": {
       "item": "vulcanite:vulcanite_ingot"
-    },
-    "output": {
-      "item": "mmko:dust_vulcanite"
     }
+  },
+  "output": {
+    "item": "mmko:dust_vulcanite"
   }
 }

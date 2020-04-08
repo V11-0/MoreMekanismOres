@@ -9,9 +9,9 @@
   "input": {
     "ingredient": {
       "item": "simplyplatinum:platinum_ingot"
-    },
-    "output": {
-      "item": "mmko:dust_platinum"
     }
+  },
+  "output": {
+    "item": "mmko:dust_platinum"
   }
 }
