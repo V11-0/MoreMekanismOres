@@ -2,7 +2,7 @@
   "type": "mekanism:washing",
   "conditions": [
     {
-      "modid": "vulcanite",
+      "modid": "simplyplatinum",
       "type": "forge:mod_loaded"
     }
   ],
@@ -12,10 +12,10 @@
   },
   "gasInput": {
     "amount": 1,
-    "gas": "mmko:dirty_vulcanite_slurry"
+    "gas": "mmko:dirty_platinum_slurry"
   },
   "output": {
-    "gas": "mmko:clean_vulcanite_slurry",
+    "gas": "mmko:clean_platinum_slurry",
     "amount": 1
   }
 }

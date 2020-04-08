@@ -36,4 +36,16 @@ public class RegistryHandler {
     //Vulcanite Gasses
     public static final RegistryObject<Gas> DIRTY_VULCANITE_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_vulcanite_slurry", () -> new Slurry(false, 0x660b14, new ItemTags.Wrapper(new ResourceLocation("forge","ores/vulcanite.json"))));
     public static final RegistryObject<Gas> CLEAN_VULCANITE_SLURRY = GAS_DEFERRED_REGISTER.register("clean_vulcanite_slurry", () -> new Slurry(true, 0xbf1324, new ItemTags.Wrapper(new ResourceLocation("forge","ores/vulcanite.json"))));
+
+    //Simply Platinum Items
+    public static final RegistryObject<Item> PLATINUM_CLUMP = ITEMS.register("clump_platinum", ItemBase::new);
+    public static final RegistryObject<Item> PLATINUM_DIRTY_DUST = ITEMS.register("dirty_dust_platinum", ItemBase::new);
+    public static final RegistryObject<Item> PLATINUM_DUST = ITEMS.register("dust_platinum", ItemBase::new);
+    public static final RegistryObject<Item> PLATINUM_SHARD = ITEMS.register("shard_platinum", ItemBase::new);
+    public static final RegistryObject<Item> PLATINUM_CRYSTAL = ITEMS.register("crystal_platinum", ItemBase::new);
+
+    //Simply Platinum Gasses
+
+    public static final RegistryObject<Gas> DIRTY_PLATINUM_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_platinum_slurry", () -> new Slurry(false, 0x9e9b95, new ItemTags.Wrapper(new ResourceLocation("forge","ores/platinum.json"))));
+    public static final RegistryObject<Gas> CLEAN_PLATINUM_SLURRY = GAS_DEFERRED_REGISTER.register("clean_platinum_slurry", () -> new Slurry(true, 0xe5e4e2, new ItemTags.Wrapper(new ResourceLocation("forge","ores/platinum.json"))));
 }

@@ -2,13 +2,13 @@
   "type": "mekanism:dissolution",
   "conditions": [
     {
-      "modid": "vulcanite",
+      "modid": "simplyplatinum",
       "type": "forge:mod_loaded"
     }
   ],
   "itemInput": {
     "ingredient": {
-      "item": "vulcanite:nether_vulcanite_ore"
+      "item": "simplyplatinum:platinum_ore"
     }
   },
   "gasInput": {
@@ -16,7 +16,7 @@
     "gas": "mekanism:sulfuric_acid"
   },
   "output": {
-    "gas": "mmko:dirty_vulcanite_slurry",
+    "gas": "mmko:dirty_platinum_slurry",
     "amount": 1000
   }
 }
