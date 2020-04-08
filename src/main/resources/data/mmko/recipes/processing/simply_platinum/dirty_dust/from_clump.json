@@ -2,16 +2,16 @@
   "type": "mekanism:crushing",
   "conditions": [
     {
-      "modid": "vulcanite",
+      "modid": "simplyplatinum",
       "type": "forge:mod_loaded"
     }
   ],
   "input": {
     "ingredient": {
-      "item": "vulcanite:vulcanite_ingot"
+      "item": "mmko:clump_platinum"
     }
   },
   "output": {
-    "item": "mmko:dust_vulcanite"
+    "item": "mmko:dirty_dust_platinum"
   }
 }

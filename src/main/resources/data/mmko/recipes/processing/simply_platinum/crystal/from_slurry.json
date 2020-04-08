@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:crystallizing",
+  "conditions": [
+    {
+      "modid": "simplyplatinum",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "amount": 200,
+    "gas": "mmko:clean_platinum_slurry"
+  },
+  "output": {
+    "item": "mmko:crystal_platinum"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:dissolution",
+  "conditions": [
+    {
+      "modid": "simplyplatinum",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "itemInput": {
+    "ingredient": {
+      "item": "simplyplatinum:platinum_ore"
+    }
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:sulfuric_acid"
+  },
+  "output": {
+    "gas": "mmko:dirty_platinum_slurry",
+    "amount": 1000
+  }
+}

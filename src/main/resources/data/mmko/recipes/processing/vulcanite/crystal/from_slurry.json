@@ -1,5 +1,5 @@
 {
-  "type": "mekanism:crushing",
+  "type": "mekanism:crystallizing",
   "conditions": [
     {
       "modid": "vulcanite",
@@ -7,11 +7,10 @@
     }
   ],
   "input": {
-    "ingredient": {
-      "item": "vulcanite:vulcanite_ingot"
-    }
+    "amount": 200,
+    "gas": "mmko:clean_vulcanite_slurry"
   },
   "output": {
-    "item": "mmko:dust_vulcanite"
+    "item": "mmko:crystal_vulcanite"
   }
 }
