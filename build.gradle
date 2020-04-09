@@ -106,8 +106,6 @@ dependencies {
     compile fg.deobf("curse.maven:mekanism:2922096")
     compile fg.deobf("curse.maven:vulcanite:2919302")
     compile fg.deobf("curse.maven:simply-platinum:2923345")
-    compile fg.deobf("curse.maven:silent-gear:2923581")
-    compile fg.deobf("curse.maven:silent-lib:2873131")
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
     // compile "some.group:artifact:version"
