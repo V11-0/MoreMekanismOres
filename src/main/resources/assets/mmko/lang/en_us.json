@@ -1,5 +1,8 @@
 {
 
+
+  "itemGroup.mmko": "More Mekanism Ores",
+
   "item.mmko.clump_vulcanite": "Vulcanite Clump",
   "item.mmko.dirty_dust_vulcanite": "Dirty Vulcanite Dust",
   "item.mmko.dust_vulcanite": "Vulcanite Dust",
@@ -15,6 +18,13 @@
   "item.mmko.shard_platinum": "Platinum Shard",
   "item.mmko.crystal_platinum": "Platinum Crystal",
   "gas.mmko.clean_platinum_slurry": "Clean Platinum",
-  "gas.mmko.dirty_platinum_slurry": "Platinum"
+  "gas.mmko.dirty_platinum_slurry": "Platinum",
+
+  "item.mmko.clump_crimson_iron": "Crimson Iron Clump",
+  "item.mmko.dirty_dust_crimson_iron": "Dirty Crimson Iron Dust",
+  "item.mmko.shard_crimson_iron": "Crimson Iron Shard",
+  "item.mmko.crystal_crimson_iron": "Crimson Iron Crystal",
+  "gas.mmko.clean_crimson_iron_slurry": "Clean Crimson Iron",
+  "gas.mmko.dirty_crimson_iron_slurry": "Crimson Iron"
 
 }

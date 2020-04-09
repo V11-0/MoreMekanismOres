@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:purifying",
+  "conditions": [
+    {
+      "modid": "silentgear",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "itemInput": {
+    "ingredient": {
+      "item": "silentgear:crimson_iron_ore"
+    }
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "output": {
+    "item": "mmko:clump_crimson_iron",
+    "count": 3
+  }
+}
