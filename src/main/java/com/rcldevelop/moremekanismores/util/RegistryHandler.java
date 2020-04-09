@@ -18,7 +18,6 @@ public class RegistryHandler {
 
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, MoreMekanismOres.MOD_ID);
     public static final DeferredRegister<Gas> GAS_DEFERRED_REGISTER = new DeferredRegister<>(MekanismAPI.GAS_REGISTRY, MoreMekanismOres.MOD_ID);
-
     public static void init(){
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         GAS_DEFERRED_REGISTER.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -48,4 +47,16 @@ public class RegistryHandler {
 
     public static final RegistryObject<Gas> DIRTY_PLATINUM_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_platinum_slurry", () -> new Slurry(false, 0x9e9b95, new ItemTags.Wrapper(new ResourceLocation("forge","ores/platinum.json"))));
     public static final RegistryObject<Gas> CLEAN_PLATINUM_SLURRY = GAS_DEFERRED_REGISTER.register("clean_platinum_slurry", () -> new Slurry(true, 0xe5e4e2, new ItemTags.Wrapper(new ResourceLocation("forge","ores/platinum.json"))));
+
+
+    //Silent Gear Crimson Iron Items
+    public static final RegistryObject<Item> CRIMSON_IRON_CLUMP = ITEMS.register("clump_crimson_iron", ItemBase::new);
+    public static final RegistryObject<Item> CRIMSON_IRON_DIRTY_DUST = ITEMS.register("dirty_dust_crimson_iron", ItemBase::new);
+    public static final RegistryObject<Item> CRIMSON_IRON_SHARD = ITEMS.register("shard_crimson_iron", ItemBase::new);
+    public static final RegistryObject<Item> CRIMSON_IRON_CRYSTAL = ITEMS.register("crystal_crimson_iron", ItemBase::new);
+
+    //Silent Gear Crimson Iron Gasses
+    public static final  RegistryObject<Gas> DIRTY_CRIMSON_IRON_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_crimson_iron_slurry", () -> new Slurry(false, 0xfffff, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/crimson_iron.json"))));
+    public static final  RegistryObject<Gas> CLEAN_CRIMSON_IRON_SLURRY = GAS_DEFERRED_REGISTER.register("clean_crimson_iron_slurry", () -> new Slurry(true, 0xfffff, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/crimson_iron.json"))));
+
 }
