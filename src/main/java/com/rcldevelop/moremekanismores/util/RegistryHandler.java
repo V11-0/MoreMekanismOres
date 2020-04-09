@@ -48,10 +48,10 @@ public class RegistryHandler {
 
 
     //Silent Gear Crimson Iron Items
-    public static final RegistryObject<Item> CRIMSON_IRON_CLUMP = ITEMS.register("clump_crimson_iron", ItemBase::new);
-    public static final RegistryObject<Item> CRIMSON_IRON_DIRTY_DUST = ITEMS.register("dirty_dust_crimson_iron", ItemBase::new);
-    public static final RegistryObject<Item> CRIMSON_IRON_SHARD = ITEMS.register("shard_crimson_iron", ItemBase::new);
-    public static final RegistryObject<Item> CRIMSON_IRON_CRYSTAL = ITEMS.register("crystal_crimson_iron", ItemBase::new);
+    public static final RegistryObject<Item> CRIMSON_IRON_CLUMP = ITEMS.register("clump_crimson_iron", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> CRIMSON_IRON_DIRTY_DUST = ITEMS.register("dirty_dust_crimson_iron", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> CRIMSON_IRON_SHARD = ITEMS.register("shard_crimson_iron", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> CRIMSON_IRON_CRYSTAL = ITEMS.register("crystal_crimson_iron", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
 
     //Silent Gear Crimson Iron Gasses
     public static final  RegistryObject<Gas> DIRTY_CRIMSON_IRON_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_crimson_iron_slurry", () -> new Slurry(false, 0xc9244d, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/crimson_iron.json"))));
