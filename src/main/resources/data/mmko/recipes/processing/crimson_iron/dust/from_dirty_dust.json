@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "conditions": [
+    {
+      "modid": "silentgear",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "ingredient":{
+      "item": "mmko:dirty_dust_crimson_iron"
+    }
+  },
+  "output": {
+    "item": "silentgear:crimson_iron_dust"
+  }
+}

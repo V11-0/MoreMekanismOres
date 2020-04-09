@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:crystallizing",
+  "conditions": [
+    {
+      "modid": "silentgear",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "amount": 200,
+    "gas": "mmko:clean_crimson_iron_slurry"
+  },
+  "output": {
+    "item": "mmko:crystal_crimson_iron"
+  }
+}
