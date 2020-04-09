@@ -56,7 +56,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> CRIMSON_IRON_CRYSTAL = ITEMS.register("crystal_crimson_iron", ItemBase::new);
 
     //Silent Gear Crimson Iron Gasses
-    public static final  RegistryObject<Gas> DIRTY_CRIMSON_IRON_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_crimson_iron_slurry", () -> new Slurry(false, 0xfffff, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/crimson_iron.json"))));
-    public static final  RegistryObject<Gas> CLEAN_CRIMSON_IRON_SLURRY = GAS_DEFERRED_REGISTER.register("clean_crimson_iron_slurry", () -> new Slurry(true, 0xfffff, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/crimson_iron.json"))));
+    public static final  RegistryObject<Gas> DIRTY_CRIMSON_IRON_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_crimson_iron_slurry", () -> new Slurry(false, 0xc9244d, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/crimson_iron.json"))));
+    public static final  RegistryObject<Gas> CLEAN_CRIMSON_IRON_SLURRY = GAS_DEFERRED_REGISTER.register("clean_crimson_iron_slurry", () -> new Slurry(true, 0xfc6187, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/crimson_iron.json"))));
 
 }

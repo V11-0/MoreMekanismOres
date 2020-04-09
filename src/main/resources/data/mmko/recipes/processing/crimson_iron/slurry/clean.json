@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:washing",
+  "conditions": [
+    {
+      "modid": "silentgear",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "fluidInput": {
+    "amount": 5,
+    "tag": "minecraft:water"
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mmko:dirty_crimson_iron_slurry"
+  },
+  "output": {
+    "gas": "mmko:clean_crimson_iron_slurry",
+    "amount": 1
+  }
+}

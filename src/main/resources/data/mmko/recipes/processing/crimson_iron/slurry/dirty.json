@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:dissolution",
+  "conditions": [
+    {
+      "modid": "silentgear",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "itemInput": {
+    "ingredient": {
+      "item": "silentgear:crimson_iron_ore"
+    }
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:sulfuric_acid"
+  },
+  "output": {
+    "gas": "mmko:dirty_crimson_iron_slurry",
+    "amount": 1000
+  }
+}

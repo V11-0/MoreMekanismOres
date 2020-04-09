@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:crushing",
+  "conditions": [
+    {
+      "modid": "silentgear",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "item": "silentgear:crimson_iron_ingot"
+    }
+  },
+  "output": {
+    "item": "silentgear:crimson_iron_dust"
+  }
+}
