@@ -1,6 +1,7 @@
 package com.rcldevelop.moremekanismores;
 
 import com.rcldevelop.moremekanismores.util.RegistryHandler;
+import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -17,6 +18,7 @@ public class MoreMekanismOres
 
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID="mmko";
+    public static final ItemGroup creativeTab = new CreativeTabMMKO();
 
     public MoreMekanismOres() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
