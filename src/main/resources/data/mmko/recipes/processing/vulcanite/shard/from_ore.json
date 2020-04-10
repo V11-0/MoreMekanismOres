@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:injecting",
+  "conditions": [
+    {
+      "modid": "vulcanite",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "itemInput": {
+    "ingredient": {
+      "item": "vulcanite:nether_vulcanite_ore"
+    }
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:hydrogen_chloride"
+  },
+  "output": {
+    "item": "mmko:shard_vulcanite",
+    "count": 4
+  }
+}
