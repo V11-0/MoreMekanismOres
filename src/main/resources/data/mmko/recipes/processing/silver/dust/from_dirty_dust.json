@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient":{
+      "item": "mmko:dirty_dust_silver"
+    }
+  },
+  "output": {
+    "item": "mmko:dust_silver"
+  }
+}

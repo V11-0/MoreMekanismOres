@@ -57,4 +57,29 @@ public class RegistryHandler {
     public static final  RegistryObject<Gas> DIRTY_CRIMSON_IRON_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_crimson_iron_slurry", () -> new Slurry(false, 0xc9244d, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/crimson_iron.json"))));
     public static final  RegistryObject<Gas> CLEAN_CRIMSON_IRON_SLURRY = GAS_DEFERRED_REGISTER.register("clean_crimson_iron_slurry", () -> new Slurry(true, 0xfc6187, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/crimson_iron.json"))));
 
+
+
+    //Zinc Items
+    public static final RegistryObject<Item> ZINC_CLUMP = ITEMS.register("clump_zinc", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> ZINC_DIRTY_DUST = ITEMS.register("dirty_dust_zinc", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> ZINC_SHARD = ITEMS.register("shard_zinc", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> ZINC_CRYSTAL = ITEMS.register("crystal_zinc", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> ZINC_DUST = ITEMS.register("dust_zinc", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> ZINC_INGOT = ITEMS.register("ingot_zinc", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    //Zinc Gasses
+    public static final  RegistryObject<Gas> DIRTY_ZINC_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_zinc_slurry", () -> new Slurry(false, 0x82a19c, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/zinc.json"))));
+    public static final  RegistryObject<Gas> CLEAN_ZINC_SLURRY = GAS_DEFERRED_REGISTER.register("clean_zinc_slurry", () -> new Slurry(true, 0x9ec3bd, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/zinc.json"))));
+
+
+    //Silver Items
+    public static final RegistryObject<Item> SILVER_CLUMP = ITEMS.register("clump_silver", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> SILVER_DIRTY_DUST = ITEMS.register("dirty_dust_silver", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> SILVER_SHARD = ITEMS.register("shard_silver", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> SILVER_CRYSTAL = ITEMS.register("crystal_silver", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> SILVER_DUST = ITEMS.register("dust_silver", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("ingot_silver", () -> new Item(new Item.Properties().group(MoreMekanismOres.creativeTab)));
+    //Silver Gasses
+    public static final  RegistryObject<Gas> DIRTY_SILVER_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_silver_slurry", () -> new Slurry(false, 0x94989c, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/silver.json"))));
+    public static final  RegistryObject<Gas> CLEAN_SILVER_SLURRY = GAS_DEFERRED_REGISTER.register("clean_silver_slurry", () -> new Slurry(true, 0xc4cace, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/silver.json"))));
+
 }

@@ -25,6 +25,25 @@
   "item.mmko.shard_crimson_iron": "Crimson Iron Shard",
   "item.mmko.crystal_crimson_iron": "Crimson Iron Crystal",
   "gas.mmko.clean_crimson_iron_slurry": "Clean Crimson Iron",
-  "gas.mmko.dirty_crimson_iron_slurry": "Crimson Iron"
+  "gas.mmko.dirty_crimson_iron_slurry": "Crimson Iron",
+
+
+  "item.mmko.clump_zinc": "Zinc Clump",
+  "item.mmko.dirty_dust_zinc": "Dirty Zinc Dust",
+  "item.mmko.dust_zinc": "Zinc Dust",
+  "item.mmko.shard_zinc": "Zinc Shard",
+  "item.mmko.crystal_zinc": "Zinc Crystal",
+  "item.mmko.ingot_zinc": "Zinc Ingot",
+  "gas.mmko.clean_zinc_slurry": "Clean Zinc",
+  "gas.mmko.dirty_zinc_slurry": "Zinc",
+
+  "item.mmko.clump_silver": "Silver Clump",
+  "item.mmko.dirty_dust_silver": "Dirty Silver Dust",
+  "item.mmko.dust_silver": "Silver Dust",
+  "item.mmko.shard_silver": "Silver Shard",
+  "item.mmko.crystal_silver": "Silver Crystal",
+  "item.mmko.ingot_silver": "Silver Ingot",
+  "gas.mmko.clean_silver_slurry": "Clean Silver",
+  "gas.mmko.dirty_silver_slurry": "Silver"
 
 }

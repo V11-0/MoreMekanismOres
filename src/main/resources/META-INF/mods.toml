@@ -9,7 +9,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="mmko" #mandatory
 
-version="1.15.2-1.0.2" #mandatory
+version="1.15.2-1.0.5" #mandatory
 
 displayName="More Mekanism Ores" #mandatory
 
