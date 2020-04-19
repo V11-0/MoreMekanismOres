@@ -103,9 +103,14 @@ dependencies {
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.15.2-31.1.37'
     //compile fg.deobf("curse.maven:mekanism:2922097")
-    compile fg.deobf("curse.maven:mekanism:2922096")
-    compile fg.deobf("curse.maven:vulcanite:2919302")
-    compile fg.deobf("curse.maven:simply-platinum:2923345")
+    compile fg.deobf("curse.maven:mekanism:2932770")
+    //compile fg.deobf("curse.maven:vulcanite:2919302")
+    //compile fg.deobf("curse.maven:simply-platinum:2923345")
+    //compile fg.deobf("curse.maven:blue-power:2934396")
+    //compile fg.deobf("curse.maven:silent-lib:2873131")
+    //compile fg.deobf("curse.maven:silents-mechanisms:2875059")
+    //compile fg.deobf("curse.maven:silent-gear:2931040")
+    //compile fg.deobf("curse.maven:jei:2928469")
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
     // compile "some.group:artifact:version"

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "mmko:clump_silver"
+    }
+  },
+  "output": {
+    "item": "mmko:dirty_dust_silver"
+  }
+}

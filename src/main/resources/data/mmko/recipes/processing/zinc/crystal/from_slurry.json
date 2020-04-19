@@ -1,0 +1,10 @@
+{
+  "type": "mekanism:crystallizing",
+  "input": {
+    "amount": 200,
+    "gas": "mmko:clean_zinc_slurry"
+  },
+  "output": {
+    "item": "mmko:crystal_zinc"
+  }
+}
