@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:washing",
+  "conditions": [
+    {
+      "modid": "aoa3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "fluidInput": {
+    "amount": 5,
+    "tag": "minecraft:water"
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mmko:dirty_rosite_slurry"
+  },
+  "output": {
+    "gas": "mmko:clean_rosite_slurry",
+    "amount": 1
+  }
+}

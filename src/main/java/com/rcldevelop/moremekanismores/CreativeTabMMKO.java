@@ -10,7 +10,7 @@ public class CreativeTabMMKO extends ItemGroup {
     }
 
     @Override
-    public ItemStack createIcon(){
+    public ItemStack makeIcon(){
         return new ItemStack(RegistryHandler.VULCANITE_DUST.get());
     }
 }

@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:purifying",
+  "conditions": [
+    {
+      "modid": "aoa3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "itemInput": {
+    "ingredient": {
+      "item": "mmko:shard_rosite"
+    }
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "output": {
+    "item": "mmko:clump_rosite"
+  }
+}
