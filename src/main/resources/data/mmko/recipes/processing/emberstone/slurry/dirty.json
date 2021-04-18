@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:dissolution",
+  "conditions": [
+    {
+      "modid": "aoa3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "itemInput": {
+    "ingredient": {
+      "item": "aoa3:emberstone_ore"
+    }
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:sulfuric_acid"
+  },
+  "output": {
+    "gas": "mmko:dirty_emberstone_slurry",
+    "amount": 1000
+  }
+}

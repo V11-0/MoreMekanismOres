@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:enriching",
+  "conditions": [
+    {
+      "modid": "aoa3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "item": "aoa3:emberstone_ore"
+    }
+  },
+  "output": {
+    "item": "mmko:dust_emberstone",
+    "count": 2
+  }
+}

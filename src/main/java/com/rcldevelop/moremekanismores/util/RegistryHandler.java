@@ -81,8 +81,8 @@ public class RegistryHandler {
     //public static final  RegistryObject<Gas> DIRTY_SILVER_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_silver_slurry", () -> new Slurry(false, 0x94989c, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/silver.json"))));
     //public static final  RegistryObject<Gas> CLEAN_SILVER_SLURRY = GAS_DEFERRED_REGISTER.register("clean_silver_slurry", () -> new Slurry(true, 0xc4cace, new ItemTags.Wrapper(new ResourceLocation("forge", "ores/silver.json"))));
 
-    // Advent of ascention Items ---
-    // Rosite Items
+    //Advent of ascention Items ---
+    //Rosite Items
     public static final RegistryObject<Item> ROSITE_CLUMP = ITEMS.register("clump_rosite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
     public static final RegistryObject<Item> ROSITE_DIRTY_DUST = ITEMS.register("dirty_dust_rosite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
     public static final RegistryObject<Item> ROSITE_DUST = ITEMS.register("dust_rosite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
@@ -92,4 +92,11 @@ public class RegistryHandler {
     //Simply Rosite Gasses
     //public static final RegistryObject<Gas> DIRTY_ROSITE_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_rosite_slurry", () -> new Slurry(false, 0x9e9b95, new ItemTags.Wrapper(new ResourceLocation("forge","ores/rosite.json"))));
     //public static final RegistryObject<Gas> CLEAN_ROSITE_SLURRY = GAS_DEFERRED_REGISTER.register("clean_rosite_slurry", () -> new Slurry(true, 0xe5e4e2, new ItemTags.Wrapper(new ResourceLocation("forge","ores/rosite.json"))));
+
+    //Emberstone Items
+    public static final RegistryObject<Item> EMBERSTONE_CLUMP = ITEMS.register("clump_emberstone", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> EMBERSTONE_DIRTY_DUST = ITEMS.register("dirty_dust_emberstone", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> EMBERSTONE_DUST = ITEMS.register("dust_emberstone", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> EMBERSTONE_SHARD = ITEMS.register("shard_emberstone", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> EMBERSTONE_CRYSTAL = ITEMS.register("crystal_emberstone", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
 }

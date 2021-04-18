@@ -51,5 +51,14 @@
   "item.mmko.crystal_rosite": "Rosite Crystal",
   "item.mmko.ingot_rosite": "Rosite Ingot",
   "gas.mmko.clean_rosite_slurry": "Clean Rosite",
-  "gas.mmko.dirty_rosite_slurry": "Rosite"
+  "gas.mmko.dirty_rosite_slurry": "Rosite",
+
+  "item.mmko.clump_emberstone": "Emberstone Clump",
+  "item.mmko.dirty_dust_emberstone": "Dirty Emberstone Dust",
+  "item.mmko.dust_emberstone": "Emberstone Dust",
+  "item.mmko.shard_emberstone": "Emberstone Shard",
+  "item.mmko.crystal_emberstone": "Emberstone Crystal",
+  "item.mmko.ingot_emberstone": "Emberstone Ingot",
+  "gas.mmko.clean_emberstone_slurry": "Clean Emberstone",
+  "gas.mmko.dirty_emberstone_slurry": "Emberstone"
 }
