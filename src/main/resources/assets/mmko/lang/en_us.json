@@ -1,6 +1,4 @@
 {
-
-
   "itemGroup.mmko": "More Mekanism Ores",
 
   "item.mmko.clump_vulcanite": "Vulcanite Clump",
@@ -44,6 +42,14 @@
   "item.mmko.crystal_silver": "Silver Crystal",
   "item.mmko.ingot_silver": "Silver Ingot",
   "gas.mmko.clean_silver_slurry": "Clean Silver",
-  "gas.mmko.dirty_silver_slurry": "Silver"
+  "gas.mmko.dirty_silver_slurry": "Silver",
 
+  "item.mmko.clump_rosite": "Rosite Clump",
+  "item.mmko.dirty_dust_rosite": "Dirty Rosite Dust",
+  "item.mmko.dust_rosite": "Rosite Dust",
+  "item.mmko.shard_rosite": "Rosite Shard",
+  "item.mmko.crystal_rosite": "Rosite Crystal",
+  "item.mmko.ingot_rosite": "Rosite Ingot",
+  "gas.mmko.clean_rosite_slurry": "Clean Rosite",
+  "gas.mmko.dirty_rosite_slurry": "Rosite"
 }

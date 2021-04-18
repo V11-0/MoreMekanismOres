@@ -1,6 +1,6 @@
 {
   "parent":"item/generated",
   "textures": {
-    "layer0": "mmko:items/dust_vulcanite"
+    "layer0": "mmko:items/vulcanite/dust_vulcanite"
   }
 }

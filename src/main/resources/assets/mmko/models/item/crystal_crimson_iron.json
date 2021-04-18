@@ -1,6 +1,6 @@
 {
   "parent":"item/generated",
   "textures": {
-    "layer0": "mmko:items/crystal_crimson_iron"
+    "layer0": "mmko:items/crimson/crystal_crimson_iron"
   }
 }

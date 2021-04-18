@@ -1,6 +1,6 @@
 {
   "parent":"item/generated",
   "textures": {
-    "layer0": "mmko:items/crystal_vulcanite"
+    "layer0": "mmko:items/vulcanite/crystal_vulcanite"
   }
 }

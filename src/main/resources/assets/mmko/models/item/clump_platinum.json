@@ -1,6 +1,6 @@
 {
   "parent":"item/generated",
   "textures": {
-    "layer0": "mmko:items/clump_platinum"
+    "layer0": "mmko:items/platinum/clump_platinum"
   }
 }
