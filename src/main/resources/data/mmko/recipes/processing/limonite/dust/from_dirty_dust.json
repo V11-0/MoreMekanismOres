@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:enriching",
+  "conditions": [
+    {
+      "modid": "aoa3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "ingredient":{
+      "item": "mmko:dirty_dust_limonite"
+    }
+  },
+  "output": {
+    "item": "mmko:dust_limonite"
+  }
+}

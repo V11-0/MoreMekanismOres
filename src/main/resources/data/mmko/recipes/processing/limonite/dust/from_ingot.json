@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:crushing",
+  "conditions": [
+    {
+      "modid": "aoa3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "item": "aoa3:limonite_ingot"
+    }
+  },
+  "output": {
+    "item": "mmko:dust_limonite"
+  }
+}

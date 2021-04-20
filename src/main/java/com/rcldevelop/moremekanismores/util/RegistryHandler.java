@@ -1,25 +1,27 @@
 package com.rcldevelop.moremekanismores.util;
 
-import com.rcldevelop.moremekanismores.MoreMekanismOres;
-import mekanism.api.MekanismAPI;
-import mekanism.api.chemical.gas.Gas;
-import mekanism.api.chemical.slurry.Slurry;
 import net.minecraft.item.Item;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import mekanism.api.MekanismAPI;
+import mekanism.api.chemical.slurry.Slurry;
+import mekanism.api.chemical.slurry.SlurryBuilder;
+
+import com.rcldevelop.moremekanismores.MoreMekanismOres;
+
 public class RegistryHandler {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MoreMekanismOres.MOD_ID);
-    //public static final DeferredRegister<Gas> GAS_DEFERRED_REGISTER = DeferredRegister.create(MekanismAPI.gasRegistry(), MoreMekanismOres.MOD_ID);
+    //public static final DeferredRegister<Slurry> SLURRIES = DeferredRegister.create(MekanismAPI.slurryRegistry(), MoreMekanismOres.MOD_ID);
     
-    public static void init(){
+    public static void init() {
+        
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        //GAS_DEFERRED_REGISTER.register(FMLJavaModLoadingContext.get().getModEventBus());
+        //SLURRIES.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     //Vulcanite Items
@@ -29,10 +31,9 @@ public class RegistryHandler {
     public static final RegistryObject<Item> VULCANITE_SHARD = ITEMS.register("shard_vulcanite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
     public static final RegistryObject<Item> VULCANITE_CRYSTAL = ITEMS.register("crystal_vulcanite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
 
-
     //Vulcanite Gasses
-    //public static final RegistryObject<Gas> DIRTY_VULCANITE_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_vulcanite_slurry", () -> new Slurry(false, 0x660b14, new ItemTags.Wrapper(new ResourceLocation("forge","ores/vulcanite.json"))));
-    //public static final RegistryObject<Gas> CLEAN_VULCANITE_SLURRY = GAS_DEFERRED_REGISTER.register("clean_vulcanite_slurry", () -> new Slurry(true, 0xbf1324, new ItemTags.Wrapper(new ResourceLocation("forge","ores/vulcanite.json"))));
+    //public static final RegistryObject<Slurry> DIRTY_VULCANITE_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_vulcanite_slurry", () -> new Slurry(false, 0x660b14, new ItemTags.Wrapper(new ResourceLocation("forge","ores/vulcanite.json"))));
+    //public static final RegistryObject<Slurry> CLEAN_VULCANITE_SLURRY = SLURRIES.register("clean_vulcanite_slurry", () -> new Slurry(SlurryBuilder.builder(new ResourceLocation("forge", "ores/vulcanite.json"))));
 
     //Simply Platinum Items
     public static final RegistryObject<Item> PLATINUM_CLUMP = ITEMS.register("clump_platinum", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
@@ -89,9 +90,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> ROSITE_SHARD = ITEMS.register("shard_rosite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
     public static final RegistryObject<Item> ROSITE_CRYSTAL = ITEMS.register("crystal_rosite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
 
-    //Simply Rosite Gasses
-    //public static final RegistryObject<Gas> DIRTY_ROSITE_SLURRY = GAS_DEFERRED_REGISTER.register("dirty_rosite_slurry", () -> new Slurry(false, 0x9e9b95, new ItemTags.Wrapper(new ResourceLocation("forge","ores/rosite.json"))));
-    //public static final RegistryObject<Gas> CLEAN_ROSITE_SLURRY = GAS_DEFERRED_REGISTER.register("clean_rosite_slurry", () -> new Slurry(true, 0xe5e4e2, new ItemTags.Wrapper(new ResourceLocation("forge","ores/rosite.json"))));
+    // Rosite Slurry
+    //public static final RegistryObject<Slurry> ROSITE_SLURRY = SLURRIES.register("rosite_slurry", () -> new Slurry(SlurryBuilder.builder(new ResourceLocation("forge", "ores/rosite.json"))));
 
     //Emberstone Items
     public static final RegistryObject<Item> EMBERSTONE_CLUMP = ITEMS.register("clump_emberstone", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
@@ -99,4 +99,11 @@ public class RegistryHandler {
     public static final RegistryObject<Item> EMBERSTONE_DUST = ITEMS.register("dust_emberstone", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
     public static final RegistryObject<Item> EMBERSTONE_SHARD = ITEMS.register("shard_emberstone", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
     public static final RegistryObject<Item> EMBERSTONE_CRYSTAL = ITEMS.register("crystal_emberstone", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
+
+    //Limonite Items
+    public static final RegistryObject<Item> LIMONITE_CLUMP = ITEMS.register("clump_limonite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> LIMONITE_DIRTY_DUST = ITEMS.register("dirty_dust_limonite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> LIMONITE_DUST = ITEMS.register("dust_limonite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> LIMONITE_SHARD = ITEMS.register("shard_limonite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
+    public static final RegistryObject<Item> LIMONITE_CRYSTAL = ITEMS.register("crystal_limonite", () -> new Item(new Item.Properties().tab(MoreMekanismOres.creativeTab)));
 }

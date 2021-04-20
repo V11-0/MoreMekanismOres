@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:crystallizing",
+  "conditions": [
+    {
+      "modid": "aoa3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "amount": 200,
+    "gas": "mmko:clean_limonite_slurry"
+  },
+  "output": {
+    "item": "mmko:crystal_limonite"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:blasting",
+  "conditions": [
+    {
+      "modid": "aoa3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "mmko:dust_limonite"
+  },
+  "result": "aoa3:limonite_ingot",
+  "experience": 0.5,
+  "cookingtime": 100
+}

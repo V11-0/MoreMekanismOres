@@ -1,0 +1,23 @@
+{
+  "type": "mekanism:combining",
+  "conditions": [
+    {
+      "modid": "aoa3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "mainInput": {
+    "amount": 8,
+    "ingredient": {
+      "item": "mmko:dust_limonite"
+    }
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "output": {
+    "item": "aoa3:limonite_ore"
+  }
+}

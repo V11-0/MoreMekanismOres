@@ -60,5 +60,14 @@
   "item.mmko.crystal_emberstone": "Emberstone Crystal",
   "item.mmko.ingot_emberstone": "Emberstone Ingot",
   "gas.mmko.clean_emberstone_slurry": "Clean Emberstone",
-  "gas.mmko.dirty_emberstone_slurry": "Emberstone"
+  "gas.mmko.dirty_emberstone_slurry": "Emberstone",
+
+  "item.mmko.clump_limonite": "Limonite Clump",
+  "item.mmko.dirty_dust_limonite": "Dirty Limonite Dust",
+  "item.mmko.dust_limonite": "Limonite Dust",
+  "item.mmko.shard_limonite": "Limonite Shard",
+  "item.mmko.crystal_limonite": "Limonite Crystal",
+  "item.mmko.ingot_limonite": "Limonite Ingot",
+  "gas.mmko.clean_limonite_slurry": "Clean Limonite",
+  "gas.mmko.dirty_limonite_slurry": "Limonite"
 }
