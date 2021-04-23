@@ -1,42 +1,26 @@
 package com.rcldevelop.moremekanismores;
 
-import com.rcldevelop.moremekanismores.util.RegistryHandler;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+
+import com.rcldevelop.moremekanismores.util.RegistryHandler;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import mekanism.api.MekanismAPI;
-
-
-
 @Mod("mmko")
-public class MoreMekanismOres
-{
+public class MoreMekanismOres {
 
     public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "mmko";
     public static final ItemGroup creativeTab = new CreativeTabMMKO();
 
     public MoreMekanismOres() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
-
-        RegistryHandler.init();
-
+        // FIXME find a way to register mekanism slurries after slurry registry become avaliable
+        RegistryHandler rh = new RegistryHandler();
+        rh.init();
+        
         MinecraftForge.EVENT_BUS.register(this);
     }
-
-    private void setup(final FMLCommonSetupEvent event) {
-
-    }
-
-    private void doClientStuff(final FMLClientSetupEvent event) {
-
-    }
-
 }
