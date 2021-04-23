@@ -19,16 +19,14 @@ public class RegistryHandler {
 
     // Array with objects to help register items and slurries
     private final OreMekanismComponents[] NAMES = {
-        new OreMekanismComponents("vulcanite",    new int[] {4, 4}),
-        new OreMekanismComponents("platinum",     new int[] {4, 4}),
-        new OreMekanismComponents("crimson_iron", new int[] {4, 4}),
-        new OreMekanismComponents("zinc",         new int[] {4, 4}),
-        new OreMekanismComponents("sivler",       new int[] {4, 4}),
-        new OreMekanismComponents("rosite",       new int[] {11141120, 16056320}),
-        new OreMekanismComponents("emberstone",   new int[] {4, 4}),
-        new OreMekanismComponents("limestone",    new int[] {4, 4}),
-        // TODO: Parse Colors
-        //Color.parseColor(hex)
+        new OreMekanismComponents("vulcanite",    new int[] {0x660b14, 0xbf1324}),
+        new OreMekanismComponents("platinum",     new int[] {0x9e9b95, 0xe5e4e2}),
+        new OreMekanismComponents("crimson_iron", new int[] {0xc9244d, 0xfc6187}),
+        new OreMekanismComponents("zinc",         new int[] {0x82a19c, 0x9ec3bd}),
+        new OreMekanismComponents("silver",       new int[] {0x94989c, 0xc4cace}),
+        new OreMekanismComponents("rosite",       new int[] {0x7c0823, 0xff1145}),
+        new OreMekanismComponents("emberstone",   new int[] {0x560e00, 0xaa1c00}),
+        new OreMekanismComponents("limonite",     new int[] {0x703f04, 0xab6005}),
     };
 
     public static final DeferredRegister<Item> ITEMS
