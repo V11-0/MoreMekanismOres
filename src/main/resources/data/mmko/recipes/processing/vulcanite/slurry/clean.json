@@ -10,12 +10,12 @@
     "amount": 5,
     "tag": "minecraft:water"
   },
-  "gasInput": {
+  "slurryInput": {
     "amount": 1,
-    "gas": "mmko:dirty_vulcanite_slurry"
+    "slurry": "mmko:dirty_vulcanite"
   },
   "output": {
-    "gas": "mmko:clean_vulcanite_slurry",
+    "slurry": "mmko:clean_vulcanite",
     "amount": 1
   }
 }

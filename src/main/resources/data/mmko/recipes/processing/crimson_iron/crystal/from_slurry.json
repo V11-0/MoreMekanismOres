@@ -1,5 +1,6 @@
 {
   "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
   "conditions": [
     {
       "modid": "silentgear",
@@ -8,7 +9,7 @@
   ],
   "input": {
     "amount": 200,
-    "gas": "mmko:clean_crimson_iron_slurry"
+    "slurry": "mmko:clean_crimson_iron"
   },
   "output": {
     "item": "mmko:crystal_crimson_iron"

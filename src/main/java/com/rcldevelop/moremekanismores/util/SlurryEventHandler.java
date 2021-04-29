@@ -1,10 +1,8 @@
 package com.rcldevelop.moremekanismores.util;
 
-import com.rcldevelop.moremekanismores.MoreMekanismOres;
 import com.rcldevelop.moremekanismores.models.OreMekanismComponents;
 
 import net.minecraft.item.Item;
-import net.minecraft.tags.ITag;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.Tags.IOptionalNamedTag;

@@ -1,5 +1,6 @@
 {
   "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
   "conditions": [
     {
       "modid": "aoa3",
@@ -8,7 +9,7 @@
   ],
   "input": {
     "amount": 200,
-    "gas": "mmko:clean_limonite_slurry"
+    "slurry": "mmko:clean_limonite"
   },
   "output": {
     "item": "mmko:crystal_limonite"

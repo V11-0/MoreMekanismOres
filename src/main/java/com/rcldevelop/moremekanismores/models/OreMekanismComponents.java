@@ -21,8 +21,8 @@ public class OreMekanismComponents {
         };
 
         oreSlurries = new String[] {
-            "dirty_" + oreName + "_slurry",
-            "clean_" + oreName + "_slurry"
+            "dirty_" + oreName,
+            "clean_" + oreName
         };
     }
 

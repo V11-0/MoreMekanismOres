@@ -1,15 +1,25 @@
 {
   "type": "mekanism:washing",
+  "conditions": [
+    {
+      "item": "forge:silver_ore",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:silver_ingot",
+      "type": "forge:item_exists"
+    }
+  ],
   "fluidInput": {
     "amount": 5,
     "tag": "minecraft:water"
   },
-  "gasInput": {
+  "slurryInput": {
     "amount": 1,
-    "gas": "mmko:dirty_silver_slurry"
+    "slurry": "mmko:dirty_silver"
   },
   "output": {
-    "gas": "mmko:clean_silver_slurry",
+    "slurry": "mmko:clean_silver",
     "amount": 1
   }
 }

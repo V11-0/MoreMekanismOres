@@ -1,5 +1,6 @@
 {
   "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
   "conditions": [
     {
       "modid": "aoa3",
@@ -8,7 +9,7 @@
   ],
   "input": {
     "amount": 200,
-    "slurry": "mmko:clean_rosite_slurry"
+    "slurry": "mmko:clean_rosite"
   },
   "output": {
     "item": "mmko:crystal_rosite"

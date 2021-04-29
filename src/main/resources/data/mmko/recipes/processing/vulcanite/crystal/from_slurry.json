@@ -1,5 +1,6 @@
 {
   "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
   "conditions": [
     {
       "modid": "vulcanite",
@@ -8,7 +9,7 @@
   ],
   "input": {
     "amount": 200,
-    "gas": "mmko:clean_vulcanite_slurry"
+    "slurry": "mmko:clean_vulcanite"
   },
   "output": {
     "item": "mmko:crystal_vulcanite"

@@ -16,7 +16,8 @@
     "gas": "mekanism:sulfuric_acid"
   },
   "output": {
-    "gas": "mmko:dirty_limonite_slurry",
-    "amount": 1000
+    "slurry": "mmko:dirty_limonite",
+    "amount": 1000,
+    "chemicalType": "slurry"
   }
 }

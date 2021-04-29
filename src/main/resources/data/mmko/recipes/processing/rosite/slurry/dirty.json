@@ -16,7 +16,8 @@
     "gas": "mekanism:sulfuric_acid"
   },
   "output": {
-    "slurry": "mmko:dirty_rosite_slurry",
-    "amount": 1000
+    "slurry": "mmko:dirty_rosite",
+    "amount": 1000,
+    "chemicalType": "slurry"
   }
 }

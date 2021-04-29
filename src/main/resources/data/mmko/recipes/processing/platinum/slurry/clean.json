@@ -2,11 +2,11 @@
   "type": "mekanism:washing",
   "conditions": [
     {
-      "item": "forge:zinc_ore",
+      "item": "forge:platinum_ore",
       "type": "forge:item_exists"
     },
     {
-      "item": "forge:zinc_ingot",
+      "item": "forge:platinum_ingot",
       "type": "forge:item_exists"
     }
   ],
@@ -16,10 +16,10 @@
   },
   "slurryInput": {
     "amount": 1,
-    "slurry": "mmko:dirty_zinc"
+    "slurry": "mmko:dirty_platinum"
   },
   "output": {
-    "slurry": "mmko:clean_zinc",
+    "slurry": "mmko:clean_platinum",
     "amount": 1
   }
 }

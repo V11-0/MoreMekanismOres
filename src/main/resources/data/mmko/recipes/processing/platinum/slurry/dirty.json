@@ -2,17 +2,17 @@
   "type": "mekanism:dissolution",
   "conditions": [
     {
-      "item": "forge:zinc_ore",
+      "item": "forge:platinum_ore",
       "type": "forge:item_exists"
     },
     {
-      "item": "forge:zinc_ingot",
+      "item": "forge:platinum_ingot",
       "type": "forge:item_exists"
     }
   ],
   "itemInput": {
     "ingredient": {
-      "tag": "forge:ores/zinc"
+      "item": "forge:platinum_ore"
     }
   },
   "gasInput": {
@@ -20,7 +20,7 @@
     "gas": "mekanism:sulfuric_acid"
   },
   "output": {
-    "slurry": "mmko:dirty_zinc",
+    "slurry": "mmko:dirty_platinum",
     "amount": 1000,
     "chemicalType": "slurry"
   }

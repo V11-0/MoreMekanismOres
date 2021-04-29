@@ -1,5 +1,15 @@
 {
   "type": "mekanism:dissolution",
+  "conditions": [
+    {
+      "item": "forge:silver_ore",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:silver_ingot",
+      "type": "forge:item_exists"
+    }
+  ],
   "itemInput": {
     "ingredient": {
       "tag": "forge:ores/silver"
@@ -10,7 +20,8 @@
     "gas": "mekanism:sulfuric_acid"
   },
   "output": {
-    "gas": "mmko:dirty_silver_slurry",
-    "amount": 1000
+    "slurry": "mmko:dirty_silver",
+    "amount": 1000,
+    "chemicalType": "slurry"
   }
 }

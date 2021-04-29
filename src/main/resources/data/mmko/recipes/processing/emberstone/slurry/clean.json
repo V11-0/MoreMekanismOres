@@ -10,12 +10,12 @@
     "amount": 5,
     "tag": "minecraft:water"
   },
-  "gasInput": {
+  "slurryInput": {
     "amount": 1,
-    "gas": "mmko:dirty_emberstone_slurry"
+    "slurry": "mmko:dirty_emberstone"
   },
   "output": {
-    "gas": "mmko:clean_emberstone_slurry",
+    "slurry": "mmko:clean_emberstone",
     "amount": 1
   }
 }

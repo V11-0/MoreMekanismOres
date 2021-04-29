@@ -3,19 +3,19 @@
   "chemicalType": "slurry",
   "conditions": [
     {
-      "item": "forge:zinc_ore",
+      "item": "forge:platinum_ore",
       "type": "forge:item_exists"
     },
     {
-      "item": "forge:zinc_ingot",
+      "item": "forge:platinum_ingot",
       "type": "forge:item_exists"
     }
   ],
   "input": {
     "amount": 200,
-    "slurry": "mmko:clean_zinc"
+    "slurry": "mmko:clean_platinum"
   },
   "output": {
-    "item": "mmko:crystal_zinc"
+    "item": "mmko:crystal_platinum"
   }
 }

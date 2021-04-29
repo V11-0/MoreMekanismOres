@@ -10,12 +10,13 @@
     "amount": 5,
     "tag": "minecraft:water"
   },
-  "gasInput": {
+  "slurryInput": {
     "amount": 1,
-    "gas": "mmko:dirty_crimson_iron_slurry"
+    "slurry": "mmko:dirty_crimson_iron"
   },
   "output": {
-    "gas": "mmko:clean_crimson_iron_slurry",
-    "amount": 1
+    "slurry": "mmko:clean_crimson_iron",
+    "amount": 1,
+    "chemicalType": "slurry"
   }
 }

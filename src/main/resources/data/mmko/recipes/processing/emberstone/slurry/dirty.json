@@ -16,7 +16,8 @@
     "gas": "mekanism:sulfuric_acid"
   },
   "output": {
-    "gas": "mmko:dirty_emberstone_slurry",
-    "amount": 1000
+    "slurry": "mmko:dirty_emberstone",
+    "amount": 1000,
+    "chemicalType": "slurry"
   }
 }
