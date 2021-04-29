@@ -8,7 +8,7 @@
   ],
   "input": {
     "amount": 200,
-    "gas": "mmko:clean_rosite_slurry"
+    "slurry": "mmko:clean_rosite_slurry"
   },
   "output": {
     "item": "mmko:crystal_rosite"

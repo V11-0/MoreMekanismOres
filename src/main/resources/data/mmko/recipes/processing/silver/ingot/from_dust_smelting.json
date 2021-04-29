@@ -1,9 +1,15 @@
 {
   "type": "minecraft:smelting",
+  "conditions": [
+    {
+      "item": "forge:silver_ore",
+      "type": "forge:item_exists"
+    }
+  ],
   "ingredient": {
     "item": "mmko:dust_silver"
   },
-  "result": "mmko:ingot_silver",
+  "result": "forge:ingot_silver",
   "experience": 0.5,
   "cookingtime": 200
 }
