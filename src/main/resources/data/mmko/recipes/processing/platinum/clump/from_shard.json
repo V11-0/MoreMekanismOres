@@ -2,8 +2,12 @@
   "type": "mekanism:purifying",
   "conditions": [
     {
-      "modid": "simplyplatinum",
-      "type": "forge:mod_loaded"
+      "item": "forge:ores/platinum",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/platinum",
+      "type": "forge:item_exists"
     }
   ],
   "itemInput": {

@@ -14,10 +14,10 @@
   },
   "extraInput": {
     "ingredient": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:netherrack"
     }
   },
   "output": {
-    "item": "aoa3:emberstone_ore"
+    "tag": "forge:ores/emberstone"
   }
 }

@@ -2,8 +2,12 @@
   "type": "mekanism:combining",
   "conditions": [
     {
-      "modid": "simplyplatinum",
-      "type": "forge:mod_loaded"
+      "item": "forge:ores/platinum",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/platinum",
+      "type": "forge:item_exists"
     }
   ],
   "mainInput": {
@@ -18,6 +22,6 @@
     }
   },
   "output": {
-    "item": "simplyplatinum:platinum_ore"
+    "item": "forge:ores/platinum"
   }
 }

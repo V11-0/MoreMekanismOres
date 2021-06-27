@@ -18,6 +18,6 @@
     }
   },
   "output": {
-    "item": "aoa3:limonite_ore"
+    "tag": "forge:ores/limonite"
   }
 }

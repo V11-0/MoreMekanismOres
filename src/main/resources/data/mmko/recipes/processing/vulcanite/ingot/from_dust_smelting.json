@@ -2,14 +2,18 @@
   "type": "minecraft:smelting",
   "conditions": [
     {
-      "modid": "vulcanite",
-      "type": "forge:mod_loaded"
+      "item": "forge:ores/nether_vulcanite",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/vulcanite",
+      "type": "forge:item_exists"
     }
   ],
   "ingredient": {
     "item": "mmko:dust_vulcanite"
   },
-  "result": "vulcanite:vulcanite_ingot",
+  "result": "forge:ingots/vulcanite",
   "experience": 0.5,
   "cookingtime": 200
 }

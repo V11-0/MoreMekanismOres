@@ -3,11 +3,11 @@
   "chemicalType": "slurry",
   "conditions": [
     {
-      "item": "forge:zinc_ore",
+      "item": "forge:ores/zinc",
       "type": "forge:item_exists"
     },
     {
-      "item": "forge:zinc_ingot",
+      "item": "forge:ingots/zinc",
       "type": "forge:item_exists"
     }
   ],

@@ -18,6 +18,6 @@
     }
   },
   "output": {
-    "item": "aoa3:rosite_ore"
+    "tag": "forge:ores/rosite"
   }
 }

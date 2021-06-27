@@ -3,8 +3,12 @@
   "chemicalType": "slurry",
   "conditions": [
     {
-      "modid": "silentgear",
-      "type": "forge:mod_loaded"
+      "item": "forge:ores/crimson_iron",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/crimson_iron",
+      "type": "forge:item_exists"
     }
   ],
   "input": {

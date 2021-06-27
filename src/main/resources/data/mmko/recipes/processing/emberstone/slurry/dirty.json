@@ -8,7 +8,7 @@
   ],
   "itemInput": {
     "ingredient": {
-      "item": "aoa3:emberstone_ore"
+      "tag": "forge:ores/emberstone"
     }
   },
   "gasInput": {

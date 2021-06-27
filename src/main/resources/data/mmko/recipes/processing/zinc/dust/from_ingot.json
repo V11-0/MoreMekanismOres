@@ -1,5 +1,15 @@
 {
   "type": "mekanism:crushing",
+  "conditions": [
+    {
+      "item": "forge:ores/zinc",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/zinc",
+      "type": "forge:item_exists"
+    }
+  ],
   "input": {
     "ingredient": {
       "tag": "forge:ingots/zinc"

@@ -1,5 +1,15 @@
 {
   "type": "mekanism:injecting",
+  "conditions": [
+    {
+      "item": "forge:ores/zinc",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/zinc",
+      "type": "forge:item_exists"
+    }
+  ],
   "itemInput": {
     "ingredient": {
       "tag": "forge:ores/zinc"

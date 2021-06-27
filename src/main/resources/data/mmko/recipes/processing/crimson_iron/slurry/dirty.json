@@ -1,14 +1,9 @@
 {
   "type": "mekanism:dissolution",
-  "conditions": [
-    {
-      "modid": "silentgear",
-      "type": "forge:mod_loaded"
-    }
-  ],
+ 
   "itemInput": {
     "ingredient": {
-      "item": "silentgear:crimson_iron_ore"
+      "tag": "forge:ores/crimson_iron"
     }
   },
   "gasInput": {

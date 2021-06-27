@@ -2,11 +2,11 @@
   "type": "mekanism:washing",
   "conditions": [
     {
-      "item": "forge:platinum_ore",
+      "item": "forge:ores/platinum",
       "type": "forge:item_exists"
     },
     {
-      "item": "forge:platinum_ingot",
+      "item": "forge:ingots/platinum",
       "type": "forge:item_exists"
     }
   ],

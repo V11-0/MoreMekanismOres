@@ -2,14 +2,14 @@
   "type": "minecraft:blasting",
   "conditions": [
     {
-      "item": "forge:silver_ore",
-      "type": "forge:item_exists"
+      "modid": "mysticalworld",
+      "type": "forge:mod_loaded"
     }
   ],
   "ingredient": {
     "item": "mmko:dust_silver"
   },
-  "result": "forge:ingot_silver",
+  "result": "mysticalworld:silver_ingot",
   "experience": 0.5,
   "cookingtime": 100
 }

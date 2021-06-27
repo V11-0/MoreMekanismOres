@@ -17,7 +17,7 @@ public class SlurryEventHandler {
     @SubscribeEvent
     public void registerSlurries(RegistryEvent.Register<Slurry> event) {
         
-        for (OreMekanismComponents ore : RegistryHandler.ORE_LIST) {
+        for (OreMekanismComponents ore : ItemsRegistryHandler.ORE_LIST) {
             
             // Create the slurries of the ore
             ResourceLocation resource = new ResourceLocation("forge", "ores/" + ore.getOreName() + ".json");

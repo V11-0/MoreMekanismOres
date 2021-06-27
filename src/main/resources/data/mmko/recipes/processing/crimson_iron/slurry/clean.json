@@ -1,11 +1,6 @@
 {
   "type": "mekanism:washing",
-  "conditions": [
-    {
-      "modid": "silentgear",
-      "type": "forge:mod_loaded"
-    }
-  ],
+  
   "fluidInput": {
     "amount": 5,
     "tag": "minecraft:water"

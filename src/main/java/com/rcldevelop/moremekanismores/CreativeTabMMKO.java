@@ -1,7 +1,7 @@
 package com.rcldevelop.moremekanismores;
 
 import com.google.common.collect.Iterables;
-import com.rcldevelop.moremekanismores.util.RegistryHandler;
+import com.rcldevelop.moremekanismores.util.ItemsRegistryHandler;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -15,7 +15,7 @@ public class CreativeTabMMKO extends ItemGroup {
 
     @Override
     public ItemStack makeIcon() {
-        RegistryObject<Item> firstItem = Iterables.get(RegistryHandler.ITEMS.getEntries(), 0);
+        RegistryObject<Item> firstItem = Iterables.get(ItemsRegistryHandler.ITEMS.getEntries(), 0);
         return new ItemStack(firstItem.get());
     }
 }

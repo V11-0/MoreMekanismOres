@@ -2,17 +2,21 @@
   "type": "mekanism:enriching",
   "conditions": [
     {
-      "modid": "silentgear",
-      "type": "forge:mod_loaded"
+      "item": "forge:ores/crimson_iron",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/crimson_iron",
+      "type": "forge:item_exists"
     }
   ],
   "input": {
     "ingredient": {
-      "item": "silentgear:crimson_iron_ore"
+      "item": "forge:ingots/crimson_iron"
     }
   },
   "output": {
-    "item": "silentgear:crimson_iron_dust",
+    "item": "forge:dusts/crimson_iron",
     "count": 2
   }
 }

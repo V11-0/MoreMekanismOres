@@ -1,15 +1,5 @@
 {
   "type": "mekanism:dissolution",
-  "conditions": [
-    {
-      "item": "forge:silver_ore",
-      "type": "forge:item_exists"
-    },
-    {
-      "item": "forge:silver_ingot",
-      "type": "forge:item_exists"
-    }
-  ],
   "itemInput": {
     "ingredient": {
       "tag": "forge:ores/silver"

@@ -5,7 +5,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-import com.rcldevelop.moremekanismores.util.RegistryHandler;
+import com.rcldevelop.moremekanismores.util.ItemsRegistryHandler;
 import com.rcldevelop.moremekanismores.util.SlurryEventHandler;
 
 import org.apache.logging.log4j.LogManager;
@@ -20,7 +20,7 @@ public class MoreMekanismOres {
     public MoreMekanismOres() {
         FMLJavaModLoadingContext.get().getModEventBus().register(new SlurryEventHandler());
 
-        RegistryHandler rh = new RegistryHandler();
+        ItemsRegistryHandler rh = new ItemsRegistryHandler();
         rh.init();    
 
         MinecraftForge.EVENT_BUS.register(this);

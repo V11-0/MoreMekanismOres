@@ -8,7 +8,7 @@
   ],
   "input": {
     "ingredient": {
-      "item": "aoa3:rosite_ingot"
+      "tag": "forge:ingots/rosite"
     }
   },
   "output": {

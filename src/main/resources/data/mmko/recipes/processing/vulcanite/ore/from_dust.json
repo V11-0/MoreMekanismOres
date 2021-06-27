@@ -2,8 +2,12 @@
   "type": "mekanism:combining",
   "conditions": [
     {
-      "modid": "vulcanite",
-      "type": "forge:mod_loaded"
+      "item": "forge:ores/nether_vulcanite",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/vulcanite",
+      "type": "forge:item_exists"
     }
   ],
   "mainInput": {
@@ -18,6 +22,6 @@
     }
   },
   "output": {
-    "item": "vulcanite:nether_vulcanite_ore"
+    "item": "forge:ores/nether_vulcanite"
   }
 }

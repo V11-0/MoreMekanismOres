@@ -1,5 +1,15 @@
 {
   "type": "mekanism:combining",
+  "conditions": [
+    {
+      "item": "forge:ores/zinc",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/zinc",
+      "type": "forge:item_exists"
+    }
+  ],
   "mainInput": {
     "amount": 8,
     "ingredient": {
@@ -12,6 +22,6 @@
     }
   },
   "output": {
-    "item": "mmko:dust_zinc"
+    "item": "forge:ores/zinc"
   }
 }

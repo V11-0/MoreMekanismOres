@@ -1,15 +1,5 @@
 {
   "type": "mekanism:dissolution",
-  "conditions": [
-    {
-      "item": "forge:zinc_ore",
-      "type": "forge:item_exists"
-    },
-    {
-      "item": "forge:zinc_ingot",
-      "type": "forge:item_exists"
-    }
-  ],
   "itemInput": {
     "ingredient": {
       "tag": "forge:ores/zinc"

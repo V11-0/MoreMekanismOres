@@ -2,13 +2,17 @@
   "type": "mekanism:crushing",
   "conditions": [
     {
-      "modid": "vulcanite",
-      "type": "forge:mod_loaded"
+      "item": "forge:ores/nether_vulcanite",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/vulcanite",
+      "type": "forge:item_exists"
     }
   ],
   "input": {
     "ingredient": {
-      "item": "vulcanite:vulcanite_ingot"
+      "item": "forge:ingots/vulcanite"
     }
   },
   "output": {

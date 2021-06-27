@@ -2,14 +2,18 @@
   "type": "mekanism:combining",
   "conditions": [
     {
-      "modid": "silentgear",
-      "type": "forge:mod_loaded"
+      "item": "forge:ores/crimson_iron",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/crimson_iron",
+      "type": "forge:item_exists"
     }
   ],
   "mainInput": {
     "amount": 8,
     "ingredient": {
-      "item": "mmko:dust_crimson_iron"
+      "item": "forge:dusts/crimson_iron"
     }
   },
   "extraInput": {
@@ -18,6 +22,6 @@
     }
   },
   "output": {
-    "item": "silentgear:crimson_iron_ore"
+    "item": "forge:ores/crimson_iron"
   }
 }

@@ -2,13 +2,17 @@
   "type": "mekanism:dissolution",
   "conditions": [
     {
-      "modid": "vulcanite",
-      "type": "forge:mod_loaded"
+      "item": "forge:ores/nether_vulcanite",
+      "type": "forge:item_exists"
+    },
+    {
+      "item": "forge:ingots/vulcanite",
+      "type": "forge:item_exists"
     }
   ],
   "itemInput": {
     "ingredient": {
-      "item": "vulcanite:nether_vulcanite_ore"
+      "item": "forge:ores/nether_vulcanite"
     }
   },
   "gasInput": {
