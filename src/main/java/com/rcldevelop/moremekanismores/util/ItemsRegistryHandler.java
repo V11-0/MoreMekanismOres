@@ -47,7 +47,7 @@ public class ItemsRegistryHandler {
                 if (itemName != null) {
                     Item.Properties itemProperties = new Item.Properties().tab(MoreMekanismOres.creativeTab);
                     ITEMS.register(itemName, () -> new Item(itemProperties));
-                }
+                } else break;
             }
         }
     };
